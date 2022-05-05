@@ -1,0 +1,36 @@
+.menu {
+
+    display: flex;
+    width: 800px;
+    list-style: none;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    
+
+
+    &__item {
+        position:relative;
+    
+    }
+    
+    &__link {
+        color: $primary-color;
+        text-transform: uppercase;
+        font-size: 13px;
+        text-decoration: none;
+     
+    }
+
+    &__link:hover { 
+        color: $secondary-color; 
+    }
+    
+    &__item:hover .sublist {
+        display:flex;
+    }
+
+}

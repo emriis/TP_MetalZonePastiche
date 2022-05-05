@@ -1,0 +1,230 @@
+@import '../fontawesome-free-6.0.0-web/css/all.css';
+/* ---------- [ STYLE ] [VAR] */
+.square {
+  width: 200px;
+  height: 200px;
+}
+
+@font-face {
+  font-family: "Rift";
+  src: url(../font/Rift_2/Fort\ Foundry\ -\ Rift\ Bold\ Italic.otf);
+}
+@font-face {
+  font-family: "ttnormspro";
+  src: url(../font/Rift_2/TT\ Norms\ Pro\ Bold.otf);
+}
+/* ---------- [ RESET ] */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s,
+samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, canvas, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section, summary, main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]),
+[hidden] {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* ---------- [ STYLE ] [COMMON] */
+.logo {
+  padding: 20px 15px;
+}
+.logo__img {
+  height: 25px;
+}
+
+.menu {
+  display: flex;
+  width: 800px;
+  list-style: none;
+  position: absolute;
+  left: 300px;
+  top: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.menu__item {
+  position: relative;
+}
+.menu__link {
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: none;
+}
+.menu__link:hover {
+  color: #F7B500;
+}
+.menu__item:hover .sublist {
+  display: flex;
+}
+
+.header {
+  background-image: url(../img/arisingempire.png);
+  background-size: cover;
+  font-family: Rift;
+  border-bottom: 6px solid #F7B500;
+}
+
+.sublist {
+  position: absolute;
+  margin: 10px;
+  left: -60px;
+  padding: 10px 30px 20px 15px;
+  width: 120px;
+  top: 10px;
+  background-color: black;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1;
+}
+.sublist__link {
+  text-decoration: none;
+  color: white;
+  font-family: Rift;
+}
+.sublist__link:hover {
+  display: flex;
+}
+.sublist__link:hover {
+  color: #F7B500;
+}
+
+.headband {
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+.headband__link {
+  text-decoration: none;
+  font-family: ttnormspro;
+  position: relative;
+  top: 30px;
+  right: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.headband__title {
+  color: #F7B500;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.headband__article {
+  color: white;
+  font-size: 32px;
+  padding: 0px 80px 10px 0px;
+  margin: 12px 0px 0px 0px;
+  text-align: justify;
+}
+.headband__paragraph {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  padding: 0px 80px 0px 0px;
+  text-align: justify;
+}
+.headband__img {
+  width: 540px;
+  height: 315px;
+}
+.headband__paragraph:after {
+  content: "";
+  width: 56px;
+  background-color: #F7B500;
+  height: 2px;
+  position: absolute;
+  top: 260px;
+  left: 16px;
+}
+.headband__article:hover {
+  color: #F7B500;
+}
+.headband__imgcontainer {
+  width: 540px;
+  height: 315px;
+}
+.headband__img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  box-sizing: border-box;
+}
+
+.articles__link {
+  text-decoration: none;
+  font-family: ttnormspro;
+}
+.articles__img {
+  width: 364px;
+  height: 216px;
+  position: relative;
+  top: 30px;
+  right: 10px;
+  border-radius: 10px;
+}
+.articles__title {
+  color: #F7B500;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.articles__article {
+  color: white;
+  font-size: 32px;
+  padding: 0px 80px 10px 0px;
+  margin: 12px 0px 0px 0px;
+  text-align: justify;
+}/*# sourceMappingURL=style.css.map */

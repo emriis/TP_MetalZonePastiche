@@ -1,0 +1,37 @@
+.list { 
+  display: flex; 
+
+  &__item { 
+    position: relative; 
+    padding: 10px 0;
+  
+    &:hover .list__underlist { display: block; }
+  
+  }
+    &__link {
+      display: flex;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 0 8px;
+
+      &:hover { color: #ffd951; }
+    }
+
+      &__icon { margin-left: 12px; }
+
+    &__underlist {
+      display: none;
+      position: absolute;
+      top: 41px;
+      left: 0;
+      background-color: turquoise;
+      padding: 10px;
+      border-radius: 10px;
+    }
+      &__underitem {}
+        &__underlink {
+          text-decoration: none;
+          color: white;
+        }
+}

@@ -1,0 +1,5 @@
+@mixin toto($padding,$margin,$border) {
+    padding: $padding;
+    margin: $margin;
+    border: $border;
+}

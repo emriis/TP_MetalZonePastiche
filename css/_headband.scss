@@ -1,0 +1,75 @@
+.headband {
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    
+    &__link {
+        text-decoration: none;
+        font-family: ttnormspro;
+        position: relative;
+        top: 30px;
+        right: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        
+    }
+
+    &__title {
+        color: $secondary-color;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+
+    &__article {
+        color: $primary-color;
+        font-size: 32px;
+        padding: 0px 80px 10px 0px;
+        margin: 12px 0px 0px 0px;
+        text-align: justify;
+    }
+
+    &__paragraph {
+        color: $tertiary-color;
+        font-size: 16px;
+        padding: 0px 80px 0px 0px;
+        text-align: justify;
+    }
+
+    &__img {
+        width: 540px;
+        height: 315px;
+    }
+    
+    &__paragraph:after {
+        content: "";
+        width: 56px;
+        background-color: $secondary-color;
+        height: 2px;
+        position: absolute;
+        top: 260px;
+        left: 16px;
+        
+    }
+
+    &__article:hover {
+        color: $secondary-color;
+    }
+
+    &__imgcontainer {
+        width: 540px;
+        height: 315px;
+    }
+
+    &__img:hover {
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        box-sizing: border-box;
+        
+    }
+
+    
+}

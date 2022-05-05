@@ -1,0 +1,40 @@
+.column {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    &__left {
+        width: 50%;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+        &__subtitle {
+            text-transform: uppercase;
+            color: #f7b500;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        &__title {
+            padding: 15px 0;
+            font-size: 32px;
+            color: white;
+        }
+        &__text {
+            font-size: 16px;
+            color: red;
+        }
+
+    &__right { width: 50%; }
+        &__img { width: 100%; }
+
+
+    &:hover .column__title {
+        color: turquoise;
+    }
+
+    &:hover .column__text {
+        color: purple;
+    }
+}

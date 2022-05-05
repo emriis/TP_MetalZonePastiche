@@ -1,0 +1,40 @@
+.articles {
+
+    &__item {
+
+    }
+
+    &__link {
+
+    }
+
+    &__link {
+        text-decoration: none;
+        font-family: ttnormspro;
+        
+    }
+
+    &__img {
+        width: 364px;
+        height: 216px;
+        position: relative;
+        top: 30px;
+        right: 10px;
+        border-radius: 10px;  
+    }
+
+    &__title {
+        color: $secondary-color;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+
+    &__article {
+        color: $primary-color;
+        font-size: 32px;
+        padding: 0px 80px 10px 0px;
+        margin: 12px 0px 0px 0px;
+        text-align: justify;
+    }
+}

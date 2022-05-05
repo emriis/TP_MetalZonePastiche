@@ -1,0 +1,30 @@
+.sublist {
+    position: absolute;
+    margin: 10px;
+    left: -60px;
+    padding: 10px 30px 20px 15px;
+    width: 120px;
+    top: 10px;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+
+    &__link {
+        text-decoration: none;
+        color: $primary-color;
+        font-family: Rift;
+        
+    }
+
+    &__link:hover {
+        display:flex;
+    }
+
+    &__link:hover { color: $secondary-color; }
+}
+
+
+
+
